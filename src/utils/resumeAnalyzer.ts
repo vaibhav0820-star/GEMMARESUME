@@ -24,13 +24,13 @@ Education: B.Tech CSE, 2025`;
 export const CANDIDATE_PRESETS: CandidatePreset[] = [
   {
     id: 'rahul-junior-fullstack',
-    label: 'Rahul Sharma — Junior Full Stack (Default)',
+    label: '1. Rahul Sharma — Junior Full Stack (Default)',
     targetRole: DEFAULT_TARGET_ROLE,
     resumeText: DEFAULT_RESUME_TEXT,
   },
   {
     id: 'backend-node-candidate',
-    label: 'Backend API Developer Sample',
+    label: '2. Backend API Developer Sample',
     targetRole: 'Backend Engineer (Node.js, PostgreSQL, Docker, Kubernetes, Redis)',
     resumeText: `Candidate Profile | Remote
 Skills: JS, Node.js, Express, PostgreSQL, Git
@@ -40,6 +40,42 @@ Projects:
 Experience:
 - Backend Intern at CloudWorks (Jan 2025 - May 2025), maintained Express endpoints and SQL queries
 Education: B.E. Information Technology`,
+  },
+  {
+    id: 'frontend-react-senior',
+    label: '3. Alex Chen — Mid Frontend → Senior React Role',
+    targetRole: 'Senior Frontend Engineer (React 19, TypeScript, Next.js, Tailwind CSS, Jest, GraphQL, CI/CD)',
+    resumeText: `Alex Chen | San Francisco, CA
+Skills: JavaScript, TypeScript, React, Next.js, Tailwind CSS, HTML, CSS, Git
+Projects:
+- E-Commerce Storefront: Built high-performance shopping cart in Next.js and Tailwind
+- Realtime Analytics Dashboard: Created customizable charting interface using React and WebSockets
+Experience:
+- Frontend Engineer at Apex Labs (2023 - Present): Migrated codebase from JavaScript to TypeScript. Improved page load times by 28%. Collaborated with UX team to redesign design system components.
+- Junior Web Developer at ByteWorks (2021 - 2023): Implemented responsive UI components in React for over 45,000 monthly active users.
+Education: B.S. in Computer Science, University of California`,
+  },
+  {
+    id: 'devops-sre-candidate',
+    label: '4. Priya Patel — DevOps & Cloud Engineer',
+    targetRole: 'DevOps / SRE Engineer (Kubernetes, AWS, Terraform, Docker, Python, CI/CD, Prometheus)',
+    resumeText: `Priya Patel | Austin, TX
+Skills: Linux, Docker, Python, Bash, AWS, Jenkins, Git, PostgreSQL
+Projects:
+- Automated Deployment Pipeline: Created multi-stage Jenkins pipeline deploying Docker containers to AWS EC2
+- Infrastructure Monitoring Script: Wrote Python scripts to alert on server CPU and memory thresholds
+Experience:
+- Cloud Operations Associate at CloudScale (2024 - Present): Maintained 15 AWS microservices. Reduced deployment failure rate by 22%. Managed Docker images across staging and production clusters.
+Education: B.S. in Information Systems, 2024`,
+  },
+  {
+    id: 'sparse-garbled-candidate',
+    label: '5. Incomplete / Sparse Resume (Tests Honesty & Warnings)',
+    targetRole: 'Senior Full Stack Architect (Go, React, Distributed Systems, Microservices)',
+    resumeText: `John Doe
+Did some coding in React and Python.
+Helped out on team tasks.
+Looking for Senior Architect role.`,
   },
 ];
 

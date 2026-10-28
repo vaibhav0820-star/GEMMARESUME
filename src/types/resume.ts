@@ -1,4 +1,22 @@
-export type GemmaModelId = 'gemma-4-26b-a4b-it' | 'gemma-4-31b-it';
+export type GemmaModelId =
+  | 'gemma-2-architecture'
+  | 'gemma-4-26b-a4b-it'
+  | 'gemma-4-31b-it'
+  | 'gemini-3.1-flash-lite'
+  | 'gemini-flash-latest'
+  | 'gemini-3.8-flash';
+
+export interface Gemma2ArchitectureInfo {
+  attentionMechanism: string;
+  logitSoftCapping: string;
+  slidingWindowSize: number;
+  turnTokens: {
+    userTurnStart: string;
+    turnEnd: string;
+    modelTurnStart: string;
+  };
+  groundingGuarantees: string[];
+}
 
 export interface SubScores {
   keywords: number;
@@ -83,6 +101,7 @@ export interface AnalyzeApiResponse {
   responseTimeMs: number;
   attempts: number;
   errorDetails?: string;
+  architectureInfo?: Gemma2ArchitectureInfo;
 }
 
 export interface CandidatePreset {
