@@ -1,0 +1,6 @@
+{
+  "name": "ResumeLens — Grounded ATS & Technical Recruiter Audit",
+  "description": "Evidence-grounded ATS resume analyzer, XYZ bullet rewriter, skill gap detector, and 4-week career action planner with strict JSON schema output.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
